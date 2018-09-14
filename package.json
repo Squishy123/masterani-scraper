@@ -4,7 +4,10 @@
   "description": "Scraper for masterani.me",
   "main": "src/main.js",
   "scripts": {
-    "test-all": "mocha --recursive test"
+    "test-all": "mocha --recursive test",
+    "test-search": "mocha test/getSearch.js",
+    "test-meta": "mocha test/getMeta.js",
+    "test-sources": "mocha test/getSources.js"
   },
   "repository": {
     "type": "git",
