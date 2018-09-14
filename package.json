@@ -1,0 +1,26 @@
+{
+  "name": "masterani-scraper",
+  "version": "0.1.0",
+  "description": "Scraper for masterani.me",
+  "main": "src/main.js",
+  "scripts": {
+    "test-all": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squishy123/masterani-scraper.git"
+  },
+  "author": "Squishy123",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Squishy123/masterani-scraper/issues"
+  },
+  "homepage": "https://github.com/Squishy123/masterani-scraper#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cheerio": "^1.0.0-rc.2",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
