@@ -1,4 +1,5 @@
 const { expect } = require('chai');
+require('dotenv').config()
 
 //load module
 const scraper = require('../src/main.js');
