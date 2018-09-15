@@ -18,7 +18,8 @@ module.exports = {
                         poster: (e && e.poster) ? `https://cdn.masterani.me/poster/1/${e.poster.file}` : "",
                         episodesListHref: (e && e.slug) ? `https://www.masterani.me/anime/info/${e.slug}` : "",
                         title: (e && e.title) ? e.title : "",
-                        slug: (e && e.slug) ? e.slug : ""
+                        slug: (e && e.slug) ? e.slug : "",
+                        id: (e && e.id) ? e.id : ""
                     })
                 });
                 return results;

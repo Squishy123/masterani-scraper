@@ -1,13 +1,14 @@
 {
   "name": "masterani-scraper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scraper for masterani.me",
   "main": "src/main.js",
   "scripts": {
     "test-all": "mocha --recursive test",
     "test-search": "mocha test/getSearch.js",
     "test-meta": "mocha test/getMeta.js",
-    "test-sources": "mocha test/getSources.js"
+    "test-sources": "mocha test/getSources.js",
+    "test-chain": "mocha test/chain.js"
   },
   "repository": {
     "type": "git",
